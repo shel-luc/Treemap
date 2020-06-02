@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#title, #description {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#title {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+rect {
+  stroke: white;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px 15px;
+  font-size: 12px;
+  background: ivory;
+  border: 0;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.credit {
+  text-align: center;
+  font-size: 11px;
+  color: grey;
+}
